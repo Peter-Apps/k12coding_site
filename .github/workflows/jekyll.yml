@@ -119,7 +119,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install JupyterLite
-        run: pip install jupyterlite-core jupyterlite-pyodide-kernel
+        run: pip install jupyterlite-core jupyterlite-pyodide-kernel jupyter-server
 
       - name: Build JupyterLite
         run: |
