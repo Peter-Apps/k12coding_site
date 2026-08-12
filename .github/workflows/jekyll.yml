@@ -66,21 +66,17 @@
 
 
 name: Deploy site + JupyterLite to Pages
-
 on:
   push:
     branches: ["master"]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -116,6 +112,7 @@ jobs:
             notebooks
           sparse-checkout-cone-mode: false
 
+      # --- Build JupyterLite into a subfolder of the same _site ---
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -129,28 +126,7 @@ jobs:
           jupyter lite build \
             --contents notebooks-content/notebooks \
             --output-dir _site/jupyter \
-            --base-url "${{ steps.pages.outputs.base_path }}/jupyterLite/"
-            
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-      # --- Build JupyterLite into a subfolder of the same _site ---
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install JupyterLite
-        run: |
-          pip install jupyterlite-core jupyterlite-pyodide-kernel
-          # If you have a requirements.txt for your JupyterLite build, use it instead:
-          # pip install -r requirements.txt
-
-      - name: Build JupyterLite
-        run: |
-          jupyter lite build \
-            --output-dir _site/jupyter \
-            --base-url "${{ steps.pages.outputs.base_path }}/jupyterLite/"
-          # Add --contents content  if you keep notebooks in a content/ folder
+            --base-url "${{ steps.pages.outputs.base_path }}/jupyter/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
