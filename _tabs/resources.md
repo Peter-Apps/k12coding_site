@@ -23,21 +23,24 @@ Jupyter runs is a browser window which makes it appear more familiar – and les
 
 The easiest was to run our activities is through an online interactive service like Google’s Colaboratory, described below. If you’d prefer to install Jupyter on your computer to run programs ‘locally’, download and install [Anaconda](https://www.anaconda.com/products/individual). It contains Jupyter, Python, and all the other behind-the-scenes stuff your computer will need. You can download our activities and data at [project GitHub](https://github.com/adamlamee/CODINGinK12) by viewing a file, then right-click on “raw”.
 
-### Colab & Azure
+### Colab
 
-You can install Jupyter locally on your device, but for K12 schools getting software installed can be anywhere from tough to impossible. [Google Colaboratory](https://colab.research.google.com/notebooks/basic_features_overview.ipynb), or *Colab*, has revolutionized how we use Jupyter notebooks with students and in teacher professional development. The only downside is it requires a Google account. If your school uses Google Classroom, that’s not a big deal. Running a notebook on Colab is great for older computers since it doesn’t use your processor for the heavy lifting. Like a Google Doc/Sheet/Slide, you can save it to your Drive and share it with others, but it doesn’t supoprt multiple users editing simultaneously. If you’d rather use a Microsoft product, Azure lets you run and save our notebooks in the cloud using your Microsoft or Outlook365 account. We haven’t used this service much (as of May 2020), but I’ll update here after using it in some workshops this summer.
+You can install Jupyter locally on your device, but for K12 schools getting software installed can be anywhere from tough to impossible. [Google Colaboratory](https://colab.research.google.com/notebooks/basic_features_overview.ipynb), or *Colab*, has revolutionized how we use Jupyter notebooks with students and in teacher professional development. The only downside is it requires a Google account. If your school uses Google Classroom, that’s not a big deal. Running a notebook on Colab is great for older computers since it doesn’t use your processor for the heavy lifting. Like a Google Doc/Sheet/Slide, you can save it to your Drive and share it with others, but it doesn’t supoprt multiple users editing simultaneously. 
 
-We started this project on a dedicated JupyterHub server, then moved to using [Binder](https://mybinder.org/). We moved to Colab as our project scaled, but big big thanks to the Binder team. This would not have gotten off the ground without them.
+### Alternatives to Colab
+Recently many districts are moving away from allowing Google Colab, due to privacy concerns. Google Colab isn't currently bundled with their education platform, though we hope that will change in the future. If you're looking for an alternative, here are some suggestions that other teachers have had success with.
+- [Azure](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2): If you’d rather use a Microsoft product, Azure lets you run and save our notebooks in the cloud using your Microsoft or Outlook365 account. We haven’t used this service much (as of May 2020), but it's an option if you need it.
+- [Binder](https://mybinder.org): Binder lets you turn a Git repo into a collection of interactive notebooks accessible to students without the need to create accounts. We started this project on a dedicated JupyterHub server, then moved to using Binder. This would not have gotten off the ground without the Binder team.
+- [GitHub Codespaces](https://github.com/codespaces): If you are planning on storing all your notebooks in a GitHub repository and students can create their own GitHub account, Codespaces is a built-in way to run and modify notebooks files. Each account is given 120 hours of access a month for free. Students can fork the teacher's repo and their changes will be saved in their own repository.
+- [JupyterEverywhere](https://www.jupytereverywhere.org/): A web-based, no accounts needed, implementation of a JupyterNotebook with a simplified interface, making it useful for younger students. Teachers can upload a notebook and share the link with the class. Student will need to either share their completed notebook, or download a copy to preserve their edits. 
+- [JupyterLite](https://jupyter.org/try-jupyter/lab/): Another accountless option to run these notebooks in a browser. This can be integrated directly into a [website](https://codinginK12.org/jupyterLite) using Github Pages. This runs notebooks well, but students will need to download the edited files to save their changes.
+- [Marimo](https://molab.marimo.io/notebooks): This requires students to create an account, but offers a Colab-like interface and runs quickly in any web-browser. Changes are saved in the student's account but can be downloaded or shared with the teacher.
 
 ### GitHub
 
-[GitHub](https://github.com/) is cloud storage, team collaboration, and version tracking all in one. Professional programmers and organizations use it to host their code and keep track of who made which edit when. We use it to host our notebooks and the data files they analyze. Colab has a great feature that allows us to create a URL that opens a noteboodk on GitHub in your own Colab window.
+[GitHub](https://github.com/) is cloud storage, team collaboration, and version tracking all in one. Professional programmers and organizations use it to host their code and keep track of who made which edit when. We use it to host our notebooks and the data files they analyze. Colab has a great feature that allows us to create a URL that opens a notebook on GitHub in your own Colab window.
 The Open In Colab buttons do just that. 
-
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) 
-
-As of May 2020, Azure doesn’t support linking to individual notebooks, but you can copy the entire project (all notebooks and data) to your Azure account and run them.
-
 
 # Advice on Implementation
 
