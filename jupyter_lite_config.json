@@ -1,0 +1,19 @@
+{
+  "PyodideLockAddon": {
+    "enabled": true,
+    "specs": [
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "geopandas",
+      "geodatasets"
+    ],
+    "locker": "browser"
+  },
+  "BrowserLocker": {
+    "browser": "firefox",
+    "headless": true,
+    "private_mode": true,
+    "temp_profile": true
+  }
+}
