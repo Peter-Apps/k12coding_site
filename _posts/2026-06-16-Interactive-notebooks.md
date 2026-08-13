@@ -17,7 +17,7 @@ We will be using JupyterLite to access and run the education notebooks found in 
 
 # Jupyter Lite
 - <https://QuarkNet-HEP.github.io/coding-camp>
-- [CodinginK12 Notebooks](https://peter-apps.github.io/jupyter) # TODO: Update notebooks for JupyterLite
+- [CodinginK12 Notebooks](https://peter-apps.github.io/k12coding_site/jupyter) # TODO: Update notebooks for JupyterLite
 
 # Notebook repo
 - [QuarkNet Coding Camp](https://github.com/QuarkNet-HEP/coding-camp)
