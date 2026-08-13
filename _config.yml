@@ -252,6 +252,7 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+  - requirements.txt
 
 jekyll-archives:
   enabled: [categories, tags]
