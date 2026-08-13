@@ -122,7 +122,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Install JupyterLite
-        run: pip install jupyterlite-core==0.8.* jupyterlite-pyodide-kernel==0.8.* jupyterlite-pyodide-lock jupyter-server
+        run: pip install jupyterlite-core jupyterlite-pyodide-kernel jupyterlite-pyodide-lock jupyter-server
 
       - name: Setup geckodriver
         uses: browser-actions/setup-geckodriver@latest
