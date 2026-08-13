@@ -16,8 +16,9 @@ We will be using JupyterLite to access and run the education notebooks found in 
 
 
 # Jupyter Lite
-- <https://guillermofidalgo.github.io/coding-camp>
-- {{ site.url }} # TODO
-# Notebook repo
-- <https://github.com/QuarkNet-HEP/coding-camp>
+- <https://QuarkNet-HEP.github.io/coding-camp>
+- [CodinginK12 Notebooks](https://peter-apps.github.io/jupyter) # TODO: Update notebooks for JupyterLite
 
+# Notebook repo
+- [QuarkNet Coding Camp](https://github.com/QuarkNet-HEP/coding-camp)
+- [Coding in K12 Notebooks](https://github.com/adamlamee/CODINGinK12/tree/main/notebooks)
