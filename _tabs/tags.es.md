@@ -2,6 +2,7 @@
 layout: tags
 icon: fas fa-tags
 order: 2
-lang: en
+lang: es
 page_id: tags
+permalink: /es/etiquetas
 --- -->

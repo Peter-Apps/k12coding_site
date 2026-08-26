@@ -6,6 +6,8 @@ tags: [notebooks]
 description: >-
   Guide to setting up JupyterLite to run notebooks in your own Github Pages
 pin: true
+lang: en
+page_id: jupyterLite-in-Github-Pages
 ---
 
 # Goal

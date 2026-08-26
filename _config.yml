@@ -8,6 +8,12 @@ theme: jekyll-theme-chirpy
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
+# Polyglot language options for translation
+languages: ["en", "es", "fr"]
+default_lang: "en"
+exclude_from_localization: ["assets", "javascript", "sass"]
+parallel_localization: true
+
 # Change to your timezone › https://zones.arilyn.cc
 timezone: America/Chicago
 

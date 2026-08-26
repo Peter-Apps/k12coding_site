@@ -17,3 +17,4 @@ gem "wdm", "~> 0.2.0", :platforms => [:windows]
 gem "jekyll-theme-chirpy", "~> 7.0"
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-polyglot', group: [:jekyll_plugins]

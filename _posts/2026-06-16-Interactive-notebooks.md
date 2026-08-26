@@ -7,6 +7,8 @@ tags: [notebooks]
 description: >-
   Let's code!
 pin: true
+lang: en
+page_id: interactive-notebooks
 # toc: false
 # media_subpath: '/posts/20180809'
 ---

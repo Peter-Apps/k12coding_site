@@ -3,8 +3,9 @@
 # icon: fas fa-info-circle
 order: 1
 # layout: people
-lang: en
+lang: es
 page_id: team
+permalink: /es/equipo
 ---
 
 

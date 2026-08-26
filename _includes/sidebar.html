@@ -92,7 +92,52 @@
         <span class="icon-border"></span>
       {% endif %}
     {% endunless %}
-
+{% if site.languages and site.languages.size > 1 %}
+  <div class="btn-group dropup">
+    <button
+      type="button"
+      class="btn btn-link nav-link"
+      aria-label="Switch Language"
+      id="lang-toggle"
+      data-bs-toggle="dropdown"
+    >
+      <i class="fa-solid fa-language"></i>
+    </button>
+    <ul class="dropdown-menu rounded-3 mb-1 p-1">
+      {% for lc in site.languages %}
+        {% assign match_url = nil %}
+        {% if page.page_id %}
+          {% assign candidates = site.pages | concat: site.posts | concat: site.tabs %}
+          {% for c in candidates %}
+            {% if c.page_id == page.page_id and c.lang == lc %}
+              {% assign match_url = c.url | relative_url %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {% unless match_url %}
+          {% if lc == site.default_lang %}
+            {% assign match_url = '/' | relative_url %}
+          {% else %}
+            {% assign match_url = '/' | append: lc | append: '/' | relative_url %}
+          {% endif %}
+        {% endunless %}
+        <li>
+          <a class="dropdown-item d-flex align-items-center{% if lc == page.lang %} active{% endif %}" href="{{ match_url }}">
+            {% case lc %}
+              {% when 'en' %}English
+              {% when 'es' %}Español
+              {% when 'fr' %}Français
+              {% else %}{{ lc }}
+            {% endcase %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% if site.data.contact.size > 0 %}
+    <span class="icon-border"></span>
+  {% endif %}
+{% endif %}
     {% for entry in site.data.contact %}
       {%- assign url = null -%}
 
