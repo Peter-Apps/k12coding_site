@@ -9,7 +9,7 @@ description: >-
 pin: true
 lang: es
 page_id: interactive-notebooks
-permalink: /es/cuadernos-interactivos
+permalink: /cuadernos-interactivos
 
 # toc: false
 # media_subpath: '/posts/20180809'

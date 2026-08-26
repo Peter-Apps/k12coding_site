@@ -6,7 +6,7 @@ title: Recursos Para Docentes
 order: 3
 lang: es
 page_id: resources
-permalink: /es/recursos/
+permalink: /recursos/
 ---
 
 Si te gustan las actividades y quieres integrar la programación en tu clase, escuela o distrito escolar, estaremos encantados de compartir lo que nos ha funcionado bien y lo que no. A continuación, encontrarás una breve descripción de cada una de las herramientas digitales que utilizamos, seguida de consejos para su implementación a distintas escalas.

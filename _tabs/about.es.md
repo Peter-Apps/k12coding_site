@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 4
 lang: es
 page_id: about
-permalink: /es/acerca-de/
+permalink: /acerca-de/
 ---
 Los docentes ya tienen suficiente contenido que cubrir sin añadir la programación informática a la lista. Nuestro objetivo es utilizar la programación informática como una herramienta para abordar los contenidos del curso; la programación es secundaria. No verás que se enseñen explícitamente los bucles y las estructuras condicionales, pero eso ha permitido que docentes que no son especialistas en informática puedan ofrecer a sus estudiantes una experiencia significativa con la programación. Integrar la programación en las asignaturas troncales aumenta la equidad y el acceso, independientemente de los antecedentes o los ingresos familiares de cada estudiante. Por eso nuestras actividades están dirigidas a docentes de las distintas áreas de contenido. La mayoría son de ciencias, pero puedes enviar sugerencias o contribuir con una actividad que hayas creado escribiendo a <adamlamee@gmail.com>.
 

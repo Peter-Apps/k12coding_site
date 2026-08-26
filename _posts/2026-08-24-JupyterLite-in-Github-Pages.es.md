@@ -8,7 +8,7 @@ description: >-
 pin: true
 lang: es
 page_id: jupyterLite-in-Github-Pages
-permalink: /es/JupyterLite-en-Github-Pages
+permalink: /JupyterLite-en-Github-Pages
 ---
 
 **# Objetivo**
