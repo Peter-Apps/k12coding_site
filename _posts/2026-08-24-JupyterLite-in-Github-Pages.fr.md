@@ -6,7 +6,7 @@ description: >-
   Guide pour configurer JupyterLite afin d’exécuter des notebooks sur votre propre site GitHub Pages
 
 pin: true
-lang: en
+lang: fr
 page_id: jupyterLite-in-Github-Pages
 permalink: /jupyterLite-sur-Github-Pages
 ---

@@ -7,7 +7,7 @@ tags: [notebooks]
 description: >-
   À vos claviers !
 pin: true
-lang: en
+lang: fr
 page_id: interactive-notebooks
 permalink: /cahiers-interactifs
 # toc: false
