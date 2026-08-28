@@ -1,15 +1,28 @@
 ---
 layout: home
-# Index page
+lang: en
+page_id: home
 ---
 
-<h1>
-    Thanks for visiting!
-</h1>
-This page will only contian a landing page that directs you to all the material we have
+{% case site.active_lang %}
+{% when 'es' %}
+<h1>¡Gracias por visitarnos!</h1>
+Esta página es solo una página de inicio que te dirige a todo el material que tenemos.
 
-<h1>
-    How to Run an Activity?
-</h1>
-Click on the interactive notebooks blob below to follow instuctions on how to run a jupyter lab instance running
-in your browser! 
+<h1>¿Cómo ejecutar una actividad?</h1>
+¡Haz clic en el ícono de los cuadernos interactivos a continuación para seguir las instrucciones sobre cómo ejecutar una instancia de Jupyter Lab en tu navegador!
+
+{% when 'fr' %}
+<h1>Merci de votre visite !</h1>
+Cette page n'est qu'une page d'accueil qui vous dirige vers tout le contenu disponible.
+
+<h1>Comment lancer une activité ?</h1>
+Cliquez sur l'icône des carnets interactifs ci-dessous pour suivre les instructions et lancer une instance Jupyter Lab dans votre navigateur !
+
+{% else %}
+<h1>Thanks for visiting!</h1>
+This page is just a landing page that directs you to all the material we have.
+
+<h1>How to Run an Activity?</h1>
+Click on the interactive notebooks icon below to follow instructions on how to run a Jupyter Lab instance running in your browser!
+{% endcase %}
