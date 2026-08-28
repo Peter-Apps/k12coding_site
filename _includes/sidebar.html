@@ -2,7 +2,12 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+    {% assign home_url = '/' %}
+    {% if site.active_lang != site.default_lang %}
+    {% assign home_url = '/' | append: site.active_lang | append: '/' %}
+    {% endif %}
+    
+    <a href="{{ home_url | relative_url }}" id="avatar" class="rounded-circle">
       {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
@@ -11,7 +16,7 @@
       {%- endif -%}
     </a>
 
-    <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="site-title d-block" href="{{ home_url | relative_url }}">{{ site.title }}</a>
     <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
   <!-- .profile-wrapper -->
@@ -20,7 +25,7 @@
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-        <a href="{{ '/' | relative_url }}" class="nav-link">
+        <a href="{{ home_url | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
@@ -116,13 +121,13 @@
         {% endif %}
         {% unless match_url %}
           {% if lc == site.default_lang %}
-            {% assign match_url = '/' | relative_url %}
+            {% assign match_url = '/' %}
           {% else %}
-            {% assign match_url = '/' | append: lc | append: '/' | relative_url %}
+            {% assign match_url = '/' | append: lc | append: '/' %}
           {% endif %}
         {% endunless %}
         <li>
-          <a class="dropdown-item d-flex align-items-center{% if lc == page.lang %} active{% endif %}" href="{{ match_url }}">
+          <a class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}" href="{{ match_url }}">
             {% case lc %}
               {% when 'en' %}English
               {% when 'es' %}Español

@@ -6,6 +6,7 @@ order: 1
 # layout: people
 lang: fr
 page_id: team
+permalink: /équipe
 ---
 
 

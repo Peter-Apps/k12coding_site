@@ -11,15 +11,15 @@ permalink: /recursos/
 
 Si te gustan las actividades y quieres integrar la programación en tu clase, escuela o distrito escolar, estaremos encantados de compartir lo que nos ha funcionado bien y lo que no. A continuación, encontrarás una breve descripción de cada una de las herramientas digitales que utilizamos, seguida de consejos para su implementación a distintas escalas.
 
-**# Las herramientas que utilizamos**
+# ** Las herramientas que utilizamos**
 
-**### Python**
+## ** Python**
 
 [Python][Python] es un lenguaje de programación utilizado habitualmente en la investigación científica y la ciencia de datos. Es posible que hayas oído hablar de otros lenguajes, como C++, Java, Fortran o BASIC. Python tiende a tener menos reglas de sintaxis y caracteres adicionales, lo que hace que sea más fácil de leer para las personas que algunas de las alternativas. Esto significa que los estudiantes a menudo pueden deducir lo que hace el código simplemente al observarlo.
 
 Como nos centramos principalmente en el contenido científico, estas actividades no enseñan programación de manera explícita. Si tú o tus estudiantes quieren aprender sobre bucles, condicionales, funciones y otros fundamentos de las ciencias de la computación, existen tutoriales gratuitos de alta calidad en la web. Consulta [Python.org][python-wiki], [Khan Academy]([https://www.khanacademy.org/computing/computer-science]%28https://www.khanacademy.org/computing/computer-science%29), [DataCamp.com]([https://www.datacamp.com/courses/intro-to-python-for-data-science]%28https://www.datacamp.com/courses/intro-to-python-for-data-science%29) y [Programming with Mosh][Mosh] en YouTube.
 
-**### Jupyter**
+## ** Jupyter**
 
 [Jupyter]([https://jupyter.org/]%28https://jupyter.org/%29) es un software que permite escribir código y hacer cosas útiles como abrir un archivo de datos, realizar cálculos y crear gráficos. Lo utilizamos como utilizarías un programa de hojas de cálculo, pero en lugar de escribir en las celdas, escribes las instrucciones (**el código**) para analizar y visualizar los datos. Investigadores y científicos informáticos lo utilizan en lugares como CERN, NASA, IBM, Google y Microsoft. Los archivos de Jupyter se llaman **cuadernos** (*notebooks*), por lo que quizá notes que utilizamos ese término ocasionalmente para describir nuestras actividades.
 
@@ -27,11 +27,11 @@ Jupyter se ejecuta en una ventana del navegador, lo que hace que parezca más fa
 
 La forma más sencilla de ejecutar nuestras actividades es mediante un servicio interactivo en línea como Google Colaboratory, descrito a continuación. Si prefieres instalar Jupyter en tu computadora para ejecutar los programas «localmente», descarga e instala [Anaconda]([https://www.anaconda.com/products/individual]%28https://www.anaconda.com/products/individual%29). Contiene Jupyter, Python y todo lo demás que tu computadora necesitará en segundo plano. Puedes descargar nuestras actividades y datos desde el [GitHub del proyecto]([https://github.com/adamlamee/CODINGinK12]%28https://github.com/adamlamee/CODINGinK12%29): abre un archivo y luego haz clic con el botón derecho en «raw».
 
-**### Colab**
+## ** Colab**
 
 Puedes instalar Jupyter localmente en tu dispositivo, pero en las escuelas K-12 la instalación de software puede ser desde difícil hasta prácticamente imposible. [Google Colaboratory]([https://colab.research.google.com/notebooks/basic_features_overview.ipynb]%28https://colab.research.google.com/notebooks/basic_features_overview.ipynb%29), o **Colab**, ha revolucionado la forma en que utilizamos los cuadernos de Jupyter con estudiantes y en la formación profesional de docentes. La única desventaja es que requiere una cuenta de Google. Si tu escuela utiliza Google Classroom, eso no supone un gran problema. Ejecutar un cuaderno en Colab es excelente para computadoras antiguas, ya que no utiliza el procesador de tu equipo para realizar el trabajo pesado. Al igual que un Documento, Hoja de cálculo o Presentación de Google, puedes guardarlo en tu Drive y compartirlo con otras personas, pero no admite que varios usuarios editen simultáneamente.
 
-**### Alternativas a Colab**
+## ** Alternativas a Colab**
 
 Recientemente, muchos distritos escolares se están alejando de permitir Google Colab debido a preocupaciones sobre la privacidad. Actualmente, Google Colab no está incluido en su plataforma educativa, aunque esperamos que eso cambie en el futuro. Si buscas una alternativa, aquí tienes algunas sugerencias que otros docentes han utilizado con éxito.
 
@@ -47,7 +47,7 @@ Recientemente, muchos distritos escolares se están alejando de permitir Google 
 
 * [Marimo]([https://molab.marimo.io/notebooks]%28https://molab.marimo.io/notebooks%29): Requiere que los estudiantes creen una cuenta, pero ofrece una interfaz similar a Colab y funciona rápidamente en cualquier navegador web. Los cambios se guardan en la cuenta del estudiante, pero pueden descargarse o compartirse con el docente.
 
-**### GitHub**
+## ** GitHub**
 
 [GitHub]([https://github.com/]%28https://github.com/%29) es almacenamiento en la nube, colaboración en equipo y control de versiones, todo en uno. Los programadores y las organizaciones profesionales lo utilizan para alojar su código y llevar un registro de quién realizó cada modificación y cuándo. Nosotros lo utilizamos para alojar nuestros cuadernos y los archivos de datos que estos analizan. Colab tiene una excelente función que nos permite crear una URL que abre un cuaderno de GitHub en tu propia ventana de Colab.
 
@@ -55,17 +55,17 @@ Los botones «Open In Colab» hacen precisamente eso.
 
 ![Open In Colab](\[https://colab.research.google.com/assets/colab-badge.svg]\(https://colab.research.google.com/assets/colab-badge.svg\))
 
-**# Consejos para la implementación**
+# ** Consejos para la implementación**
 
 Utiliza nuestras actividades tal como están, edítalas y adáptalas a tus estudiantes, o deja que trabajemos con tu equipo. Podemos ayudarte a desarrollar un plan de implementación que se adapte a las necesidades y recursos de tu organización. Tenemos una sólida trayectoria ofreciendo formación profesional de alta calidad y planificación estratégica a nivel de distrito sobre programación, contenidos de ciencias físicas, pedagogía renovada y alfabetización digital. Programa una consulta escribiendo a [adamlamee@gmail.com](mailto:adamlamee@gmail.com).
 
-**### Intenta llegar a la mayoría de los estudiantes**
+## ** Intenta llegar a la mayoría de los estudiantes**
 
 * Un curso específico de ciencias de la computación puede no ser la respuesta, especialmente para los estudiantes cuyos horarios ya están llenos de cursos de recuperación o asignaturas optativas. Los estudiantes que van en autobús o que no tienen otro medio de transporte también pueden perderse los clubes extracurriculares.
 
 * Integrar la programación en las asignaturas troncales obligatorias aumenta la equidad y el acceso, independientemente de los antecedentes o los ingresos familiares de cada estudiante. Por eso nuestras actividades están dirigidas a docentes de las distintas áreas de contenido. En este momento se trata principalmente de ciencias, pero puedes enviar sugerencias o contribuir con una actividad que hayas creado escribiendo a [adamlamee@gmail.com](mailto:adamlamee@gmail.com).
 
-**### Consigue que estén de tu lado**
+## ** Consigue que estén de tu lado**
 
 Los datos y los testimonios pueden ayudar a conseguir que estudiantes, padres, docentes y administradores se sumen a la iniciativa. Estos son algunos recursos que nos han resultado útiles:
 
@@ -79,7 +79,7 @@ Los datos y los testimonios pueden ayudar a conseguir que estudiantes, padres, d
 
 * [Salarios y antecedentes]([https://orlandodevs.com/blog/orlando-devs-salaries-2017]%28https://orlandodevs.com/blog/orlando-devs-salaries-2017%29) de los programadores informáticos de Florida Central, cortesía de [Orlando Devs]([https://orlandodevs.com/]%28https://orlandodevs.com/%29)
 
-**### La formación es fundamental**
+## ** La formación es fundamental**
 
 * Aprender las herramientas y aprender cómo la programación puede enriquecer tu curso actual lleva tiempo. No es como aprender a utilizar un nuevo programa de registro de calificaciones.
 
@@ -87,7 +87,7 @@ Los datos y los testimonios pueden ayudar a conseguir que estudiantes, padres, d
 
 * La [Declaración de posición de la NSTA sobre el desarrollo profesional]([https://www.nsta.org/about/positions/profdev.aspx]%28https://www.nsta.org/about/positions/profdev.aspx%29) es un excelente recurso para planificar un taller.
 
-**### Hazlo tuyo**
+## ** Hazlo tuyo**
 
 * Nuestras actividades no tienen mucho formato adicional ni texto explicativo. Si prefieres que tus estudiantes tengan instrucciones más detalladas, es fácil editarlas para cambiar la presentación, la secuencia, el tipo de pregunta, etc.
 
@@ -95,7 +95,7 @@ Los datos y los testimonios pueden ayudar a conseguir que estudiantes, padres, d
 
 * Nuestras actividades tienen licencia CC-BY-SA, lo que significa que son gratuitas para usar y modificar siempre que se dé el crédito correspondiente. Consulta la página «about» para ver el texto de la licencia. También puedes escribirnos a [adamlamee@gmail.com](mailto:adamlamee@gmail.com). Nos encanta saber cómo los docentes las están adaptando.
 
-**### Alimenta a los estudiantes más avanzados**
+## ** Alimenta a los estudiantes más avanzados**
 
 Nuestras actividades permiten que los estudiantes interesados realicen más análisis del que se incluye en las instrucciones, y a menudo nos sorprende lo que consiguen. Si eso no es suficiente, prueba a sugerir estos otros recursos gratuitos (y extraordinarios):
 

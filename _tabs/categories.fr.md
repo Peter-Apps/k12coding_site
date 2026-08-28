@@ -4,5 +4,5 @@ icon: fas fa-stream
 order: 1
 lang: fr
 page_id: categories
-permalink: /catégories
+permalink: /catégories/
 --- -->

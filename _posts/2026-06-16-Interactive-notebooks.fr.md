@@ -14,17 +14,17 @@ permalink: /cahiers-interactifs
 # media_subpath: '/posts/20180809'
 ---
 
-**# Comment exécuter une activité**
+# ** Comment exécuter une activité**
 
 Nous utiliserons JupyterLite pour accéder aux notebooks pédagogiques présents dans le dépôt Coding-Camp et les exécuter. Aucun logiciel préalable n’est nécessaire : il suffit de cliquer et vous êtes prêt à commencer ! Si vous le souhaitez, vous pouvez également installer et exécuter ces notebooks en clonant le dépôt de notebooks et en installant Jupyter sur votre propre ordinateur.
 
-**# Jupyter Lite**
+# ** Jupyter Lite**
 
 - <https://QuarkNet-HEP.github.io/coding-camp>
 
 - [Notebooks CodinginK12](https://peter-apps.github.io/k12coding_site/jupyter) # TODO : Mettre à jour les notebooks pour JupyterLite
 
-**# Dépôt de notebooks**
+# ** Dépôt de notebooks**
 
 - [QuarkNet Coding Camp](https://github.com/QuarkNet-HEP/coding-camp)
 
