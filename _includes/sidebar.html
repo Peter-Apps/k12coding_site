@@ -105,11 +105,11 @@
     </button>
     <ul class="dropdown-menu rounded-3 mb-1 p-1">
       {% for lc in site.languages %}
-        {% assign lang_path = page.permalink_lang[lc] | default: '/' %}
+        {% assign lang_path = page.permalink_lang[lc] | default: '/' | strip %}
         {% if lc == site.default_lang %}
           {% assign match_url = site.baseurl | append: lang_path %}
         {% else %}
-          {% assign match_url = site.baseurl | append: '/' | append: lc | append: lang_path %}
+          {% assign match_url = site.baseurl | append: '/' | append: lc | append: '/' %}
         {% endif %}
         <li> 
           <a class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}" href="{{ match_url }}" > 
