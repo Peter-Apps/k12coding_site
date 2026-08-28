@@ -1,6 +1,5 @@
 ---
 title: Setup JupyterLite in your own repo
-author: peter
 date: 2026-08-24 12:36:00 +0000
 tags: [notebooks]
 description: >-

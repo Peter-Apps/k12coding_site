@@ -1,11 +1,11 @@
 ---
-title: Interactive notebooks
+title: Cuadernos interactivos
 author: guillermo
 date: 2026-07-16 15:29:00 +0000
 # categories: [Notebooks,jupyterlite]
 tags: [notebooks]
 description: >-
-  Let's code!
+ ¡Vamos a programar!
 pin: true
 lang: es
 page_id: interactive-notebooks

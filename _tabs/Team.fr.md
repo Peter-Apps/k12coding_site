@@ -1,12 +1,11 @@
 ---
 # the default layout is 'page'
 # icon: fas fa-info-circle
-title: Equipo
+title: équipe
 order: 1
 # layout: people
-lang: es
+lang: fr
 page_id: team
-permalink: /equipo
 ---
 
 

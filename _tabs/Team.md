@@ -1,6 +1,7 @@
 ---
 # the default layout is 'page'
 # icon: fas fa-info-circle
+title: Team
 order: 1
 # layout: people
 lang: en
