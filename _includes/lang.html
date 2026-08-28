@@ -1,6 +1,4 @@
 {% comment %}
-Leaving this commented out to see if it fixes language switching bug
-{% comment %}
   Detect appearance language and return it through variable "lang"
 {% endcomment %}
 {% if site.data.locales[page.lang] %}
@@ -10,20 +8,3 @@ Leaving this commented out to see if it fixes language switching bug
 {% else %}
   {% assign lang = 'en' %}
 {% endif %}
-{% endcomment %}
-
-
-{% comment %}
-Determine the Chirpy UI language from Polyglot's active language.
-Polyglot uses: en, es, fr
-Chirpy locale files use: en, es-ES, fr-FR
-{% endcomment %}
-
-{% case site.active_lang %}
-{% when 'es' %}
-{% assign lang = 'es-ES' %}
-{% when 'fr' %}
-{% assign lang = 'fr-FR' %}
-{% else %}
-{% assign lang = 'en' %}
-{% endcase %}

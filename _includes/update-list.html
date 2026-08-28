@@ -1,10 +1,10 @@
 <!-- Get 5 last posted/updated posts -->
 
 {% assign MAX_SIZE = 5 %}
-
+{% assign localized_posts = site.posts | where: 'lang', site.active_lang %}
 {% assign all_list = '' | split: '' %}
 
-{% for post in site.posts %}
+{% for post in localized_posts %}
   {% assign datetime = post.last_modified_at | default: post.date %}
 
   {% capture elem %}
