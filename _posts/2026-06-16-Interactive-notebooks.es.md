@@ -15,17 +15,17 @@ permalink: /cuadernos-interactivos
 # media_subpath: '/posts/20180809'
 ---
 
-# ** Cómo ejecutar una actividad**
+# **Cómo ejecutar una actividad**
 
 Usaremos **JupyterLite** para acceder y ejecutar los cuadernos educativos que se encuentran en el repositorio **Coding-Camp**. No es necesario instalar ningún software previamente; ¡solo tienes que hacer clic y estarás listo para comenzar! Si lo deseas, también puedes instalar y ejecutar estos cuadernos en tu propio ordenador clonando el repositorio de los cuadernos e instalando Jupyter.
 
-# ** JupyterLite**
+# **JupyterLite**
 
 * [Coding Camp de QuarkNet](https://QuarkNet-HEP.github.io/coding-camp)
 
 * [Cuadernos de Coding in K12](https://peter-apps.github.io/k12coding_site/jupyter) — **PENDIENTE:** Actualizar los cuadernos para JupyterLite.
 
-# ** Repositorio de cuadernos**
+# **Repositorio de cuadernos**
 
 * [QuarkNet Coding Camp](https://github.com/QuarkNet-HEP/coding-camp)
 

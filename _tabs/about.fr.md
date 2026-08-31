@@ -12,15 +12,15 @@ Les enseignants ont déjà suffisamment de contenu à couvrir sans ajouter la pr
 
 # **Objectifs du projet**
 
-- ****combler le fossé**** entre les jeux de programmation par glisser-déposer (comme les excellents travaux de [CODE.org](https://code.org/) et [Scratch](https://scratch.mit.edu/)) et les cours traditionnels d’introduction à l’informatique qui enseignent la programmation à partir d’un terminal vide
+- **combler le fossé** entre les jeux de programmation par glisser-déposer (comme les excellents travaux de [CODE.org](https://code.org/) et [Scratch](https://scratch.mit.edu/)) et les cours traditionnels d’introduction à l’informatique qui enseignent la programmation à partir d’un terminal vide
 
-- ****utiliser des logiciels et des langages de niveau professionnel**** afin que les élèves puissent continuer à développer leurs compétences et à s’appuyer sur leurs expériences au cours de leurs études supérieures et de leur carrière
+- **utiliser des logiciels et des langages de niveau professionnel** afin que les élèves puissent continuer à développer leurs compétences et à s’appuyer sur leurs expériences au cours de leurs études supérieures et de leur carrière
 
-- ****accroître l’équité et l’accès**** en touchant les élèves par l’intermédiaire des cours fondamentaux, grâce à des activités conçues pour enseigner d’abord les sciences, le codage servant d’outil
+- **accroître l’équité et l’accès** en touchant les élèves par l’intermédiaire des cours fondamentaux, grâce à des activités conçues pour enseigner d’abord les sciences, le codage servant d’outil
 
-- ****faciliter la mise en œuvre**** en utilisant des logiciels intuitifs et gratuits ainsi que des activités entièrement modifiables, conçues pour des enseignants n’ayant aucune expérience préalable en programmation
+- **faciliter la mise en œuvre** en utilisant des logiciels intuitifs et gratuits ainsi que des activités entièrement modifiables, conçues pour des enseignants n’ayant aucune expérience préalable en programmation
 
-- ****développer des activités de science des données**** qui mettent des données de recherche entre les mains des élèves et complètent la richesse des ressources existantes sur la simulation et l’animation, comme les excellentes ressources de [ComPADRE](https://www.compadre.org/) utilisant [vPython](https://vpython.org/) et [Glowscript](https://www.glowscript.org/docs/VPythonDocs/index.html)
+- **développer des activités de science des données** qui mettent des données de recherche entre les mains des élèves et complètent la richesse des ressources existantes sur la simulation et l’animation, comme les excellentes ressources de [ComPADRE](https://www.compadre.org/) utilisant [vPython](https://vpython.org/) et [Glowscript](https://www.glowscript.org/docs/VPythonDocs/index.html)
 
 # **Notre histoire**
 
