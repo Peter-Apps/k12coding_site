@@ -5,6 +5,7 @@ title: Teacher Resources
 order: 3
 lang: en
 page_id: resources
+permalink: /resources/
 ---
 
 If you like the activities and want to integrate coding into you class, school, or district, we’re happy to share what has worked well for us and what hasn’t. Below, you’ll find a short description of each of the digital tools we use followed by advice on implementation at a range of scales.

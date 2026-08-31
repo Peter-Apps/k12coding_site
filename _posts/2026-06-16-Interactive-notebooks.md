@@ -9,6 +9,7 @@ description: >-
 pin: true
 lang: en
 page_id: interactive-notebooks
+permalink: /interactive-notebooks
 # toc: false
 # media_subpath: '/posts/20180809'
 ---

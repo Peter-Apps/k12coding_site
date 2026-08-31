@@ -6,7 +6,7 @@ order: 1
 # layout: people
 lang: es
 page_id: team
-permalink: /equipo
+permalink: /equipo/
 ---
 
 

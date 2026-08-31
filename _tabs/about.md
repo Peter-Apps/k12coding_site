@@ -5,6 +5,7 @@ icon: fas fa-info-circle
 order: 4
 lang: en
 page_id: about
+permalink: /about/
 ---
 
 Teachers have enough to cover without adding computer programming to the list. Our goal is to use computer programming as a tool to address course content - the coding is secondary. You won’t see loops and conditionals taught explicitly, but that has allowed non-CS-fluent teachers to give their students meaningful exposure to programming. Embedding coding into core courses increases equity and access, regardless of a student’s background or family income. That’s why our activities are aimed at content area teachers. They’re mostly science, but you can send suggestions or contribute an activity you wrote by emailing <adamlamee@gmail.com>.
