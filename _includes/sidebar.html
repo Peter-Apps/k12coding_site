@@ -116,9 +116,8 @@
 
         <li>
           
-            class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}"
-            {% static_href %}href="{{ match_url }}"{% endstatic_href %}
-          >
+            <a class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}"
+            {% static_href %}href="{{ match_url }}"{% endstatic_href %}>
             {% case lc %}
               {% when 'en' %}English
               {% when 'es' %}Español
