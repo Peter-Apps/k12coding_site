@@ -105,21 +105,26 @@
     </button>
     <ul class="dropdown-menu rounded-3 mb-1 p-1">
       {% for lc in site.languages %}
-        {% assign lang_path = page.permalink_lang[lc] | default: '/' | strip %}
+
         {% if lc == site.default_lang %}
+          {% assign lang_path = page.url %}
           {% assign match_url = site.baseurl | append: lang_path %}
         {% else %}
-          {% assign match_url = site.baseurl | append: '/' | append: lc | append: '/' %}
+          {% assign lang_path = page.permalink_lang[lc] | default: '/' | strip %}
+          {% assign match_url = site.baseurl | append: '/' | append: lc | append: lang_path %}
         {% endif %}
-        <li> 
-          <a class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}" {% static_href %}href="{{ match_url }}"{% endstatic_href %} > 
-            {% case lc %} 
-              {% when 'en' %}English 
-              {% when 'es' %}Español 
-              {% when 'fr' %}Français 
-              {% else %}{{ lc }} 
-            {% endcase %} 
 
+        <li>
+          <a
+            class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}"
+            {% static_href %}href="{{ match_url }}"{% endstatic_href %}
+          >
+            {% case lc %}
+              {% when 'en' %}English
+              {% when 'es' %}Español
+              {% when 'fr' %}Français
+              {% else %}{{ lc }}
+            {% endcase %}
           </a>
         </li>
       {% endfor %}

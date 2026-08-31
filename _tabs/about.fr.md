@@ -1,12 +1,13 @@
 ---
 # the default layout is 'page'
-title: About
+title: Propos
 icon: fas fa-info-circle
 order: 4
 lang: fr
 page_id: about
 permalink: /propos/
 ---
+
 Les enseignants ont déjà suffisamment de contenu à couvrir sans ajouter la programmation informatique à la liste. Notre objectif est d’utiliser la programmation informatique comme un outil pour aborder le contenu des cours — le codage est secondaire. Vous ne verrez pas les boucles et les structures conditionnelles enseignées explicitement, mais cela a permis à des enseignants qui ne maîtrisent pas nécessairement l’informatique de donner à leurs élèves une expérience concrète et enrichissante de la programmation. Intégrer le codage aux cours fondamentaux favorise l’équité et l’accès, quels que soient les antécédents ou les revenus familiaux des élèves. C’est pourquoi nos activités s’adressent aux enseignants des différentes disciplines. Elles portent principalement sur les sciences, mais vous pouvez envoyer vos suggestions ou contribuer à une activité que vous avez créée en écrivant à [adamlamee@gmail.com](mailto:adamlamee@gmail.com).
 
 
