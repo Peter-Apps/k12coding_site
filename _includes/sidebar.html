@@ -103,19 +103,19 @@
     >
       <i class="fa-solid fa-language"></i>
     </button>
-    <ul class="dropdown-menu rounded-3 mb-1 p-1">
-      {% for lc in site.languages %}
+      <ul class="dropdown-menu rounded-3 mb-1 p-1">
+        {% for lc in site.languages %}
+
+        {% assign lang_path = page.permalink_lang[lc] | default: '/' | strip %}
 
         {% if lc == site.default_lang %}
-          {% assign lang_path = page.url %}
           {% assign match_url = site.baseurl | append: lang_path %}
         {% else %}
-          {% assign lang_path = page.permalink_lang[lc] | default: '/' | strip %}
           {% assign match_url = site.baseurl | append: '/' | append: lc | append: lang_path %}
         {% endif %}
 
         <li>
-          <a
+          
             class="dropdown-item d-flex align-items-center{% if lc == site.active_lang %} active{% endif %}"
             {% static_href %}href="{{ match_url }}"{% endstatic_href %}
           >
@@ -127,8 +127,8 @@
             {% endcase %}
           </a>
         </li>
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </ul>
   </div>
   {% if site.data.contact.size > 0 %}
     <span class="icon-border"></span>
